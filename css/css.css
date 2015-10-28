@@ -11,3 +11,36 @@
     font-size: 18px;
     border: none;
 }
+
+/* CONTACT */
+
+.dropdown #button-reason{
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.dropdown #button-reason span{
+    float: right;
+    margin-top: 8px;
+}
+
+#combo-reason{
+    width: 100%;
+    margin-top: -9px;
+}
+
+#combo-reason li{
+    width: 100%;
+}
+
+#combo-reason a{
+    font-size: 13px;
+}
+
+#bSendComent{
+    margin-top: -2px;
+    padding: 6px 20px;
+}
