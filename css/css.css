@@ -1,0 +1,13 @@
+/* REDES SOCIALES */
+.red-social{
+    float: right;
+    background-color: white;
+}
+.red-social li{
+    float: left;
+    margin: 5px 5px;
+}
+.red-social a{
+    font-size: 18px;
+    border: none;
+}
