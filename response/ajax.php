@@ -29,7 +29,7 @@ name: name,
     $mensaje .= "Enviado el " . date('d/m/Y', time());
 
     //$para = 'sistemas@imporpasac.com';
-    $para2 = 'jzeballosd@gmail.com';
+    $para2 = 'marketing@paez.com.pe';
 
     $asunto = 'Formulario de Contacto de Paez Perú';
 
