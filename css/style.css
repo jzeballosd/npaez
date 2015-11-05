@@ -96,7 +96,7 @@ strong {
 }
 /* color */
 .blue {
-    color: #0092ff;
+    color: #3E3E3A;
 }
 .skblue {
     color: #87c8ff;
@@ -325,8 +325,115 @@ button.blue {
     width: 100%;
 }
 /* HEADER STYLE */
-.header {
-    background: url(../images/bg.jpg) center top no-repeat fixed;
+.header {/* Old browsers *//* FF3.6+ */
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -webkit-gradient(linear, left top, right top, color-stop(0%,#e7e7e6), color-stop(100%,#d2d2d0));/* Chrome,Safari4+ */
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -webkit-linear-gradient(left,  #e7e7e6 0%,#d2d2d0 100%);/* Chrome10+,Safari5.1+ */
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -o-linear-gradient(left,  #e7e7e6 0%,#d2d2d0 100%);/* Opera 11.10+ */
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -ms-linear-gradient(left,  #e7e7e6 0%,#d2d2d0 100%);/* IE10+ */
+    background: linear-gradient(to right,  #e7e7e6 0%,#d2d2d0 100%);/* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e6', endColorstr='#d2d2d0',GradientType=1 );/* IE6-9 */
 }
 .header_top {
     position: relative;
@@ -537,9 +644,30 @@ button.blue {
     position: relative;
     margin-bottom: -36px;
     z-index: 1;
+    /* background-color: red; */
 }
 .nav-bg {
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #EA988E;
+    /* background-color: #ECA49B; *//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e89085+0,e48d80+100 */
+    /* background: #e89085; *//* Old browsers */
+    background: 
+    
+    -moz-linear-gradient(left,  #e89085 0%, #e48d80 100%);/* FF3.6+ */
+    background: 
+    
+    -webkit-gradient(linear, left top, right top, color-stop(0%,#e89085), color-stop(100%,#e48d80));/* Chrome,Safari4+ */
+    background: 
+    
+    -webkit-linear-gradient(left,  #e89085 0%,#e48d80 100%);/* Chrome10+,Safari5.1+ */
+    background: 
+    
+    -o-linear-gradient(left,  #e89085 0%,#e48d80 100%);/* Opera 11.10+ */
+    background: 
+    
+    -ms-linear-gradient(left,  #e89085 0%,#e48d80 100%);/* IE10+ */
+    background: linear-gradient(to right,  #e89085 0%,#e48d80 100%);/* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e89085', endColorstr='#e48d80',GradientType=1 );/* IE6-9 */
 }
 .nav-wrap {
     position: relative;
@@ -557,12 +685,15 @@ button.blue {
     color: #fff;
 }
 .nav li a:hover, .nav li.active a {
-    color: #0092ff;
-    background-color: rgba(0, 0, 0, 0.8);
+    /* color: #0092ff; */
+    color: #F9E0DD;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: #CE7F73;
 }
 .nav > li > a:hover, .nav > li:hover > a, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    color: #0092ff;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: #F9E0DD;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: #CE7F73;
 }
 /*dropdown menu style */
 .nav .dropdown-menu {
@@ -813,12 +944,12 @@ button.blue {
     margin: 15px 0;
     font-size: 24px;
     line-height: 24px;
-    color: #2f2f2f;
+    color: #d2d2d0;
     font-weight: 300;
     padding-bottom: 4px;
 }
 .title strong {
-    color: #0092ff;
+    color: #3E3E3A;
     border-bottom: 1px solid #000000;
     font-weight: 300;
     padding-bottom: 2px;
@@ -2212,7 +2343,7 @@ form.newsletter input[type="submit"] {
     float: left;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .error {
     display: none;

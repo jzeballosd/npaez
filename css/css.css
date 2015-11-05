@@ -22,9 +22,9 @@
     margin-bottom: 10px;
 }
 
-.dropdown #button-reason span{
+.dropdown span{
     float: right;
-    margin-top: 8px;
+    margin-top: 7px;
 }
 
 #combo-reason{
@@ -43,4 +43,30 @@
 #bSendComent{
     margin-top: -2px;
     padding: 6px 20px;
+}
+
+/* SUBSCRIPCION */
+
+.dropdown #button-distrito, .dropdown #button-dia, .dropdown #button-mes, .dropdown #button-ayo{
+    font-size: 13px;
+    text-align: left;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.cumplefild .dropdown{
+    margin-right: 30px;
+}
+
+#combo-distrito, #combo-ayo, #combo-mes, #combo-dia{
+    
+margin-top: -10px;
+    
+overflow: scroll;
+    
+height: 113px;
+    
+overflow-x: hidden;
+    
+z-index: 900;
 }

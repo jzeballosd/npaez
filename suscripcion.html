@@ -51,7 +51,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-4 col-sm-3 ">
-                                    <div  class="logo"><a href="#"><img src="images/paez/logo-jf_creativia.png" alt="pear logo"></a></div>
+                                    <div  class="logo"><a href="#"><img src="images/paez/logo-jf_.png" alt="pear logo"></a></div>
                                 </div>
                                 <div class="col-md-8 col-sm-9 ">                
                                     <ul class="red-social">
@@ -87,7 +87,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="tiendas.html">TIENDAS</a></li>
-                                        <li class="active"><a href="products.html">SUSCRÍBASE</a></li>
+                                        <li class="active"><a href="suscripcion.html">SUSCRÍBASE</a></li>
                                         <li><a href="contact.html">CONTACTENOS</a></li>                
                                     </ul>
                                 </div>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="row" id="frmContactenos">
-                        <form class="contact-form" id="mailform" method="post" enctype="multipart/form-data" >  
+                        <form class="contact-form" id="subscripform" method="post" enctype="multipart/form-data" >  
                             <div class="col-md-12">
                                 <div class="mailFromDiv">
                                     <div class="namefild">
@@ -134,36 +134,98 @@
                                         <label> Email <strong class="red">*</strong></label>
                                         <input type="email" name="iemail" id="iemail" placeholder="Correo Electrónico" required>
                                         <span class="error"></span> </div>
+                                    <div class='cumplefild'>
+                                        <label for='dropdown'>Cumpleaños</label>
+                                        <div class='dropdown' style='float: left;'>
+                                            <div class='btn btn-default dropdown-toggle' id='button-dia' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' data-item='Seleccione' style="width: 50px">
+                                                Día
+                                                <span class='caret'></span>
+                                            </div>
+                                            <ul class='dropdown-menu combo-items' aria-labelledby='dropdown-dia' id='combo-dia'>
+                                            </ul>
+                                        </div>
+                                        <div class='dropdown' style='float: left;'>
+                                            <div class='btn btn-default dropdown-toggle' id='button-mes' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' data-item='Seleccione' style="width: 100px">
+                                                Mes
+                                                <span class='caret'></span>
+                                            </div>
+                                            <ul class='dropdown-menu combo-items' aria-labelledby='dropdown-mes' id='combo-mes'>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class='dropdown' style='float: left;'>
+                                            <div class='btn btn-default dropdown-toggle' id='button-ayo' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' data-item='Seleccione' style="width: 70px">
+                                                Año
+                                                <span class='caret'></span>
+                                            </div>
+                                            <ul class='dropdown-menu combo-items' aria-labelledby='dropdown-ayo' id='combo-ayo'>
+                                                
+                                            </ul>
+                                        </div>
+                                        <span class="error" style="margin-top: 6px;"></span>
+                                    </div>    
                                     <div class="telefild">
                                         <label> Teléfono <strong class="red">*</strong></label>
                                         <input type="text" name="itelef" id="itelef" placeholder="Teléfono" required>
-                                        <span class="error"></span> </div>
-                                    <div class="ciudfild" style="padding-bottom: 10px">
-                                        <label> Ciudad <strong class="red">*</strong></label>
-                                        <input type="text" name="iciudad" id="iciudad" placeholder="Teléfono" required>
-                                        <span class="error"></span> </div>    
-                                
-                            
-                                    <div class='motivfild'>
-                                        <label for='dropdown'>Motivo</label>
+                                        <span class="error"></span> 
+                                    </div>                                    
+                                    <div class='distritofild'>
+                                        <label for='dropdown'>Distrito</label>
                                         <div class='dropdown' style='float: left;width: 50%'>
-                                            <div class='btn btn-default dropdown-toggle' id='button-reason' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' data-item='Seleccione'>
+                                            <div class='btn btn-default dropdown-toggle' id='button-distrito' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' data-item='Seleccione' style="width: 160px">
                                                 Seleccione
                                                 <span class='caret'></span>
                                             </div>
-                                            <ul class='dropdown-menu combo-items' aria-labelledby='dropdown-reason' id='combo-reason'>
-                                                <li><a href='#' data-item='1' data-valor='Devoluciones'>Devoluciones</a></li>
-                                                <li><a href='#' data-item='2' data-valor='Reparaciones'>Reparaciones</a></li>
-                                                <li><a href='#' data-item='3' data-valor='Productos'>Productos</a></li>
-                                                <li><a href='#' data-item='4' data-valor='Comentarios'>Comentarios</a></li>                                                    
+                                            <ul class='dropdown-menu combo-items' aria-labelledby='dropdown-distrito' id='combo-distrito'>
+                                                <li><a href='#' data-item='33' data-valor='Ancon'>Ancon</a></li>
+                                                <li><a href='#' data-item='2' data-valor='Ate'>Ate</a></li>
+                                                <li><a href='#' data-item='3' data-valor='Barranco'>Barranco</a></li>
+                                                <li><a href='#' data-item='45' data-valor='Bellavista'>Bellavista</a></li>
+                                                <li><a href='#' data-item='4' data-valor='Breña'>Breña</a></li>
+                                                <li><a href='#' data-item='50' data-valor='Callao'>Callao</a></li>
+                                                <li><a href='#' data-item='32' data-valor='Carabayllo'>Carabayllo</a></li>
+                                                <li><a href='#' data-item='46' data-valor='Carmen de la Legua'>Carmen de la Legua</a></li>                                                                                                   <li><a href='#' data-item='1' data-valor='Cercado de Lima'>Cercado de Lima</a></li>
+                                                <li><a href='#' data-item='34' data-valor='Chaclacayo'>Chaclacayo</a></li>
+                                                <li><a href='#' data-item='6' data-valor='Chorrillos'>Chorrillos</a></li>
+                                                <li><a href='#' data-item='36' data-valor='Chosica'>Chosica</a></li>
+                                                <li><a href='#' data-item='35' data-valor='Cieneguilla'>Cieneguilla</a></li>
+                                                <li><a href='#' data-item='5' data-valor='Comas'>Comas</a></li>
+                                                <li><a href='#' data-item='7' data-valor='El Agustino'>El Agustino</a></li>
+                                                <li><a href='#' data-item='18' data-valor='Independencia'>Independencia</a></li>                                                                        <li><a href='#' data-item='8' data-valor='Jesús María'>Jesús María</a></li>
+                                                <li><a href='#' data-item='9' data-valor='La Molina'>La Molina</a></li>
+                                                <li><a href='#' data-item='47' data-valor='La Perla'>La Perla</a></li>
+                                                <li><a href='#' data-item='48' data-valor='La Punta'>La Punta</a></li>
+                                                <li><a href='#' data-item='10' data-valor='La Victoria'>La Victoria</a></li>
+                                                <li><a href='#' data-item='11' data-valor='Lince'>Lince</a></li>
+                                                <li><a href='#' data-item='28' data-valor='Los Olivos'>Los Olivos</a></li>
+                                                <li><a href='#' data-item='37' data-valor='Lurin'>Lurin</a></li>                                                                                        <li><a href='#' data-item='1' data-valor='Cercado de Lima'>Cercado de Lima</a></li>
+                                                <li><a href='#' data-item='12' data-valor='Magdalena del Mar'>Magdalena del Mar</a></li>
+                                                <li><a href='#' data-item='13' data-valor='Miraflores'>Miraflores</a></li>
+                                                <li><a href='#' data-item='38' data-valor='Pachacamac'>Pachacamac</a></li>
+                                                <li><a href='#' data-item='39' data-valor='Pucusana'>Pucusana</a></li>
+                                                <li><a href='#' data-item='14' data-valor='Pueblo Libre'>Pueblo Libre</a></li>
+                                                <li><a href='#' data-item='15' data-valor='Puente Piedra'>Puente Piedra</a></li>
+                                                <li><a href='#' data-item='40' data-valor='Punta Hermosa'>Punta Hermosa</a></li>
+                                                <li><a href='#' data-item='41' data-valor='Punta Negra'>Punta Negra</a></li>
+                                                <li><a href='#' data-item='26' data-valor='S. J. L.'>S. J. L.</a></li>
+                                                <li><a href='#' data-item='19' data-valor='S. J. M.'>S. J. M.</a></li>
+                                                <li><a href='#' data-item='21' data-valor='S. M. P.'>S. M. P.</a></li>
+                                                <li><a href='#' data-item='42' data-valor='San Bartolo'>San Bartolo</a></li>
+                                                <li><a href='#' data-item='29' data-valor='San Borja'>San Borja</a></li>
+                                                <li><a href='#' data-item='17' data-valor='San Isidro'>San Isidro</a></li>
+                                                <li><a href='#' data-item='20' data-valor='San Luis'>San Luis</a></li>                                                                                  <li><a href='#' data-item='22' data-valor='San Miguel'>San Miguel</a></li>
+                                                <li><a href='#' data-item='31' data-valor='Santa Anita'>Santa Anita</a></li>
+                                                <li><a href='#' data-item='43' data-valor='Santa Maria del Mar'>Santa Maria del Mar</a></li>
+                                                <li><a href='#' data-item='27' data-valor='Santa Rosa'>Santa Rosa</a></li>
+                                                <li><a href='#' data-item='23' data-valor='Santiago de Surco'>Santiago de Surco</a></li>
+                                                <li><a href='#' data-item='24' data-valor='Surquillo'>Surquillo</a></li>
+                                                <li><a href='#' data-item='49' data-valor='Ventanilla'>Ventanilla</a></li>
+                                                <li><a href='#' data-item='30' data-valor='Villa el Salvador'>Villa el Salvador</a></li>                                                                <li><a href='#' data-item='25' data-valor='Villa Maria del Triunfo'>Villa Maria del Triunfo</a></li>
                                             </ul>
                                         </div>
                                         <span class="error" style="margin-top: 6px;"></span>
                                     </div>
-                                    <div class="messagefild">
-                                        <label>Mensaje <strong class="red">*</strong></label>
-                                        <textarea name="textarea" id="textarea" placeholder="Message" rows="6"  required=""></textarea>
-                                        <span class="error"></span> </div>
+                                    
                                     <div>
                                         <label>&nbsp;</label>
                                         <div class="btn btn-primary" onClick="ValiDate()" id="bSendComent">Enviar</div>
