@@ -12,6 +12,12 @@
     border: none;
 }
 
+/* NOSOTROS*/
+#box-nosotros p{
+    
+margin-left: 14px;
+}
+
 /* CONTACT */
 
 .dropdown #button-reason{
