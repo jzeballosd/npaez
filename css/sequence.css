@@ -82,10 +82,10 @@ and open the template in the editor.
     float: left;
     position: relative;
     left: 32%;
-    bottom: 18%;
-    height: 9px;
+    bottom: 6%;
+    /* height: 9px; */
     width: auto;
-    background: url(../images/slider-pagin_bg.png) left center repeat-x;
+    /* background: url(../images/slider-pagin_bg.png) left center repeat-x; */
     z-index: 100;
 }
 .sequence-pagination {
@@ -97,14 +97,14 @@ and open the template in the editor.
     display: inline;
     width: 16px;
     height: 16px;
-    margin-left: 100px;
+    margin-left: 25px;
     position: relative;
 }
 .sequence-pagination li:first-child {
     margin: 0;
 }
 .sequence-pagination li a {
-    background: none repeat scroll 0 0 #0092FF;
+    background: none repeat scroll 0 0 #fFF;
     border: 3px solid;
     border-color: rgba(0, 0, 0, 0.90);
     border-radius: 50%;
@@ -114,20 +114,17 @@ and open the template in the editor.
     float: left;
     left: 0;
     top: -5px;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     overflow: hidden;
     position: absolute;
     z-index: 10000;
     cursor: pointer;
 }
 .sequence-pagination li.current a, .sequence-pagination li:hover a {
-    left: -44px;
-    top: -44px;
-    width: 88px;
-    height: 88px;
-    border: 5px solid;
-    border-color: rgba(0, 0, 0, 0.90);
+    border: 3px solid;
+    border-color: #FFF;
+    background-color: #949599;
 }
 .sequence-pagination li img {
     max-width: 100%;
@@ -308,9 +305,7 @@ min-width: 225px;*/
         font-size: 13px;
         line-height: 16px;
     }
-    .sequence-pagination li {
-        margin-left: 70px;
-    }
+    
     
 }
 @media only screen and (max-width: 768px) {
@@ -337,25 +332,9 @@ min-width: 225px;*/
         bottom: 12%;
         height: 4px;
     }
-    .sequence-pagination li {
-        width: 10px;
-        height: 14px;
-        /* margin-left: 100px; */
-        margin-left: 60px;
-    }
-    .sequence-pagination li a {
-        width: 14px;
-        height: 14px;
-        border: 2px solid;
-    }
-    .sequence-pagination li.current a, .sequence-pagination li:hover a {
-        width: 60px;
-        height: 60px;
-        border: 5px solid; 
-        left: -30px;
-        top: -30px;
-        border: 3px solid;
-    }
+   
+   
+    
 }
 @media only screen and (max-width: 640px) {
     .slider-pagin {
@@ -400,9 +379,7 @@ min-width: 225px;*/
     #sequence .sequence-pagination {
         bottom: 40px;
     }
-    #sequence .sequence-pagination li img {
-        height: 100px;
-    }
+    
     .slider-pagin {
         left: 20%;
     }
@@ -412,16 +389,8 @@ min-width: 225px;*/
     #sequence {
         height: 250px;
     }
-    .sequence-pagination li {
-        margin-left: 50px;
-    }
-    .sequence-pagination li.current a, .sequence-pagination li:hover a {
-        left: -18px;
-        top: -24px;
-        width: 48px;
-        height: 48px;
-        border-width: 3px;
-    }
+    
+    
 
 }
 @media only screen and (max-width: 418px) {
@@ -436,18 +405,14 @@ min-width: 225px;*/
     #sequence .title {
         font-size: 2.2em;
     }
-    .sequence-pagination li {
-        margin-left: 40px;
-    }
+    
 }
 @media only screen and (max-width: 320px) and (orientation: portrait) {
     /*iphone portrait*/
     #sequence {
         height: 165px;
     }
-    .sequence-pagination li {
-        margin-left: 30px;
-    }
+    
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
     #sequence {

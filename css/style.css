@@ -662,21 +662,51 @@ button.blue {
 }
 /* menu style */
 .nav-shadow {
-    background: url(../images/shadow.png) center bottom no-repeat;
     padding-bottom: 36px;
     position: relative;
     margin-bottom: -36px;
     z-index: 1;
     /* background-color: red; */
 }
-.nav-bg {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
-    background: #dbdbda; /* Old browsers */
-    background: -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #dbdbda 0%,#c6c6c3 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #dbdbda 0%,#c6c6c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbda', endColorstr='#c6c6c3',GradientType=1 ); /* IE6-9 */
-
+.nav-bg {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
+    padding-top: 20px;
+    background: #dbdbda;/* Old browsers */
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -webkit-linear-gradient(left,  #dbdbda 0%,#c6c6c3 100%);/* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #dbdbda 0%,#c6c6c3 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbda', endColorstr='#c6c6c3',GradientType=1 );/* IE6-9 */
 }
 .nav-wrap {
     position: relative;
@@ -689,7 +719,7 @@ button.blue {
     display: inline-block;
 }
 .nav li a {
-    padding: 20px 35px;
+    padding: 10px 45px;
     font-size: 18px;
     font-weight: 600;
     color: #000;
@@ -918,11 +948,9 @@ button.blue {
 .promo-box {
     /* float: left; */
     background-color: #fff;
-    -webkit-box-shadow: 0 0 8px 2px rgba(0,0,0,.2);
-    box-shadow: 0 0 8px 2px rgba(0,0,0,.2);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
 }
