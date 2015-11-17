@@ -73,6 +73,8 @@ $(function () {
         $("#button-ayo").html(item + "<span class='caret'></span>");
         $("#combo-ayo").fadeOut(200);
     });
+    
+    
 
 });
 

@@ -1,4 +1,4 @@
-/* REDES SOCIALES */
+/* REDES SOCIALES HEADER */
 .red-social{
     float: right;
     /* background-color: white; */
@@ -10,6 +10,9 @@
 .red-social a{
     font-size: 18px;
     border: none;
+}
+.red-social>li>input{
+    
 }
 
 /* NOSOTROS*/

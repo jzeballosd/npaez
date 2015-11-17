@@ -24,14 +24,14 @@
         <![endif]-->
 
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="css/sequence.css" rel="stylesheet" type="text/css">
-        <link href="css/flexslider.css" rel="stylesheet" type="text/css">
-        <link href="jqtransfor/jqtransform.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/jquery.nouislider.css" rel="stylesheet" type="text/css">
-        <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">        
+
+        <link href="jqtransfor/jqtransform.css" rel="stylesheet" type="text/css" media="all" />        
+        <link href="css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/css.css"/>
+
+
     </head>
     <body>
         <div class="wrapper"> 
@@ -45,14 +45,18 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-4 col-sm-3 ">
-                                    
+
                                 </div>
                                 <div class="col-md-8 col-sm-9 ">                
                                     <ul class="red-social">
-                                        <li><a href="https://www.facebook.com/PAEZshoeLovers" class="btn btn-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <!--<li><a href="https://www.facebook.com/PAEZshoeLovers" class="btn btn-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="https://twitter.com/PAEZshoeLovers" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="https://www.youtube.com/user/Paez339" target="_blank" class="btn btn-youtube"><i class="fa fa-youtube"></i></a></li>
-                                        <li><a href="http://www.pinterest.com/PAEZshoeLovers/" target="_blank" class="btn btn-pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="http://www.pinterest.com/PAEZshoeLovers/" target="_blank" class="btn btn-pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                                        <li><a href="#" style="background-image: url(images/icon-face.png)"></a></li>
+                                        <li><a href="#" style="background-image: url(images/icon-insta.png)"></a></li>
+                                        <li><a href="#" style="background-image: url(images/icon-twit.png)"></a></li>
+                                        <li><input type="text" placeholder="Busqueda..." class="input-search"></li>
                                     </ul>
                                 </div>
                             </div>
@@ -63,7 +67,7 @@
                     <!-- begain navigation bar -->
                     <div class="nav-shadow">
                         <div class="nav-bg">
-                            <div class="container  relative">
+                            <div class="container">
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                                 </div>
@@ -73,12 +77,13 @@
                                         <li><a href="nosotros.html">NOSOTROS</a></li>
                                         <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">COLECCIÓN</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="products_list.html">Zapatos</a></li>
-                                                <li><a href="products_list.html">Botas y Botines</a></li>
-                                                <li><a href="products_list.html">Carteras</a></li>
-                                                <li><a href="products_list.html">Accesorios</a></li>
-                                                <li><a href="products_list.html">Catálogo</a></li>
+                                                <li><a href="">Zapatos</a></li>
+                                                <li><a href="">Botas y Botines</a></li>
+                                                <li><a href="">Carteras</a></li>
+                                                <li><a href="">Accesorios</a></li>
+                                                <li><a href="">Catálogo</a></li>
                                             </ul>
+                                            
                                         </li>
                                         <li><a href="tiendas.html">TIENDAS</a></li>
                                         <li><a href="suscripcion.html">SUSCRÍBASE</a></li>
@@ -93,35 +98,46 @@
                     <!-- end navigation bar -->
                     <div class="clearfix"></div>
                     <!-- begain slider -->
-                    <div class="hom-slider">
+                    <div class="hom-slider">                        
                         <div class="container">
-                            <div class="sequence-prev">prev</div>
-                            <div id="sequence">
-                                
-                                <ul class="sequence-canvas">
-                                    <li class="animate-in">
-                                        
-                                        <img class="model center-block" src="images/paez/fondoslide.png" alt="slide-01" /> 
+                            <div id="sequence" class="seq">                                
+                                <div class="seq-screen">
+                                    <ul class="seq-canvas">
+                                        <li class="seq-in">
+                                            <div class="seq-model">
+                                                <img data-seq src="images/paez/fondoslide.png" alt="Slide01" class="img-responsive" />
+                                            </div>
+                                            
                                         </li>
-                                    <li>
-                                        
-                                        <img class="model center-block" src="images/paez/fondoslide.png" alt="slide-02" /></li>
-                                    <li>
-                                       
-                                        <img class="model center-block" src="images/paez/fondoslide.png" alt="slide-03" /> </li>
-                                    <li>
-                                       
-                                        <img class="model center-block" src="images/paez/fondoslide.png" alt="slide-04" /> </li>
-                                </ul>
-                                <div class="slider-pagin">
-                                    <ul class="sequence-pagination">
-                                        <li><a></a></li>
-                                        <li><a></a></li>
-                                        <li><a></a></li>
-                                        <li><a></a></li>
+
+                                        <li>
+                                            <div class="seq-model">
+                                                <img data-seq src="images/paez/fondoslide.png" alt="Slide02" class="img-responsive"/>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="seq-model">
+                                                <img data-seq src="images/paez/fondoslide.png" alt="Slide03" class="img-responsive"/>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
+
+                                <fieldset class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
+                                    <div class="seq-prev" aria-label="Previous">Previous</div>
+                                    <div class="seq-next" aria-label="Next">Next</div>
+                                </fieldset>
+
+                                <ul role="navigation" aria-label="Pagination" class="seq-pagination">
+                                    <li><a href="#step1" rel="step1" title="Go to slide 1"><img src="images/pointslide.png" /></a></li>
+                                    <li><a href="#step2" rel="step2" title="Go to slide 2"><img src="images/pointslide.png" /></a></li>
+                                    <li><a href="#step3" rel="step3" title="Go to slide 3"><img src="images/pointslide.png" /></a></li>
+                                </ul>
                             </div>
+
+
+
                         </div>
                     </div>
                     <!-- end slider -->
@@ -155,39 +171,38 @@
                 </div>
                 <div class="clearfix"></div>                
             </div>
-             
+        </div>
             <!-- BEGIN  FOOTER-->
             <div class="footer">
                 <div class="footer-info">
                     <div class="container">
                         <div class="row">
                         </div>
+                    </div>
+
                 </div>
-                
+                <!-- END  FOOTER--> 
             </div>
-            <!-- END  FOOTER--> 
-        </div>
 
-        <!-- Bootstrap core JavaScript
-            ================================================== --> 
-        <!-- Placed at the end of the document so the pages load faster --> 
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script> 
-        <script type="text/javascript" src="js/bootstrap.min.js"></script> 
-        <script type="text/javascript" src="js/modernizr.custom.js"></script> 
+            <!-- Bootstrap core JavaScript
+                ================================================== --> 
+            <!-- Placed at the end of the document so the pages load faster --> 
+            <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script> 
+            <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 
-        
-        <!-- ~~Sequence Slider~~ !--> 
-        <script type="text/javascript"  src="js/jquery.sequence-min.js"></script> 
-        
-        <script type="text/javascript" src="jqtransfor/jquery.jqtransform.js"></script> 
-        <!-- ~~Noui Price slider~~ !--> 
-        <script type="text/javascript" src="js/jquery.nouislider.js"></script> 
-        <!-- ~~jQuery Fancey Box~~ !--> 
-        <script type="text/javascript" src="js/jquery.fancybox.js"></script> 
-        <!-- ~~Nice scroll~~ !--> 
-        <script src="js/jquery.nicescroll.min.js"></script> 
-        <!-- ~~Main Script~~ !--> 
-        <script type="text/javascript" src="js/script.min.js"></script>
+            <script type="text/javascript" src="jqtransfor/jquery.jqtransform.js"></script> 
+            
+            <script src="js/imagesloaded.pkgd.min.js"></script>
+            <script src="js/hammer.min.js"></script>
+            <script src="js/sequence.js"></script>
+            <script src="js/sequence-theme.modern-slide-in.js"></script>
+            
+            <!-- ~~Nice scroll~~ !--> 
+            <script src="js/jquery.nicescroll.min.js"></script> 
+            <!-- ~~Main Script~~ !--> 
+            <script type="text/javascript" src="js/script.min.js"></script>
+            <script type="text/javascript" src="js/functions.js"></script>
+            
     </body>
 
     <!-- Mirrored from preview.hutbd.com/preview/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Oct 2015 17:51:29 GMT -->
