@@ -754,7 +754,7 @@ button.blue {
     padding: 5px 15px;
     color: #fff;
     font-size: 16px;
-    background: url(../images/dot.jpg) -8px 12px no-repeat;
+    background: url(../images/dot.png) -8px 12px no-repeat;
 }
 .nav .dropdown-menu li a:hover, .nav .dropdown-menu>li:hover>a {
     color: #fff;
