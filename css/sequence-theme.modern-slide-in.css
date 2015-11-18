@@ -123,7 +123,7 @@ html,
   top: 50%;
   margin-top: -33px;
   width: 35px;
-  height: 56px;
+  height: 59px;
   border: none;
   cursor: pointer;
   pointer-events: auto;
@@ -177,7 +177,7 @@ html,
 }
 
 .seq .seq-model {
-  bottom: 15%;
+  /* bottom: 15%; */
   width: 100%;/* Don't allow the image to exceed its original height */
   max-height: 600px;
 }

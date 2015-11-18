@@ -1,5 +1,5 @@
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Century Gothic;
     line-height: 1;
     background: #f5f5f5;
     color: #2f2f2f;
@@ -171,7 +171,7 @@ strong {
     color: #fff;
 }
 .white-bg {
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 /*~~ text align style ~~*/
 .center-text {
@@ -308,6 +308,8 @@ input[type="text"]:focus {
 .wrapper {
     position: relative;
     width: 100%;
+    max-width: 1366px;
+    background-color: #fff;
 }
 .boxwrap {
     margin-right: auto;
@@ -315,7 +317,7 @@ input[type="text"]:focus {
     position: relative;
     width: 100%;
     max-width: 1366px;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 .header, .footer, container_fullwidth {
     position: relative;
@@ -537,8 +539,16 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
+    
+    
     
     
     
@@ -734,6 +744,7 @@ input[type="text"]:focus {
 }
 .nav-bg {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
     padding-top: 20px;
+    padding-bottom: 20px;
     background: #dbdbda;/* Old browsers */
     background: 
     
@@ -751,8 +762,16 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
+    
+    
     
     
     
@@ -984,7 +1003,7 @@ input[type="text"]:focus {
 }
 /*~~~~~~~~~~~ HOME SLIDER ~~~~~~~~~*/
 .hom-slider {
-    padding-top: 20px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
+    /* padding-top: 20px; *//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
     background: #dbdbda;/* Old browsers */
     background: 
     
@@ -998,8 +1017,10 @@ input[type="text"]:focus {
     
     
     
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
     
     
     
@@ -1082,11 +1103,11 @@ margin-bottom: 15px;
 /*!~~~~FOOTER STYLE~~~~*/
 .footer {
     width: 100%;
-    background: #131929;
+    background: #302E34;
 }
 .footer-info {
     position: relative;
-    padding: 20px 0;
+    padding: 70px 0;
 }
 .footer-info .title {
     border-color: #000512;
@@ -1488,7 +1509,7 @@ margin-bottom: 15px;
         font-size: 14px;
         padding: 10px 20px;
     }
-   
+    
 }
 
 @media (max-width: 991px) {
@@ -1499,6 +1520,10 @@ margin-bottom: 15px;
     }
     .rightbar {
         float: none !important;
+    }
+    .seq .seq-next, .seq .seq-prev{        
+        width: 30px;        
+        height: 50px;
     }
 }
 
@@ -1655,13 +1680,23 @@ margin-bottom: 15px;
     .contact-info p:last-child {
         margin-right: 0;
     }
+    
+    .seq .seq-next, .seq .seq-prev{        
+        width: 25px;        
+        height: 44px;
+    }
+    .nav-shadow{
+        padding-bottom: 0;
+        /* margin-top: 5px; */
+    }
+    .nav-bg{
+        
+    }
+    .header_bottom{
+        margin-bottom: 5px;
+        padding: 5px 0 0px;
+    }
    
-    
-    
-    
-    
-   
-    
 }
 
 @media (max-width: 640px) {
@@ -1759,6 +1794,10 @@ margin-bottom: 15px;
         margin-bottom:0;}
     .coments-reply .btn {
         margin:10px 0 20px 0 !important;}
+    .seq .seq-next, .seq .seq-prev{
+        width: 20px;
+        height: 35px;
+    }
 }
 
 @media (max-width: 384px) {

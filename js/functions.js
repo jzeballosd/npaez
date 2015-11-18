@@ -74,7 +74,29 @@ $(function () {
         $("#combo-ayo").fadeOut(200);
     });
     
+    // REPROGRAMAR OBJETOS
+    var dimensionar = function () {
+        setTimeout(function () {
+            var anchoPantalla = $(window).width();
+            if (anchoPantalla <= 767) {
+                //var altoConteSlide = $(".seq-model").height();
+                var altoBoxImg = $(".seq-model>img").height();
+                //$("#sequence").css("height", (altoConteSlide + 10) + "px");
+                $(".seq-model").css("height", (altoBoxImg + 15) + "px");
+                var altoConteSlide = $(".seq-model").height();
+                $("#sequence").css("height", (altoConteSlide + 10) + "px");
+            }
+        }, 500);
+
+    };
+    dimensionar();
+    $(window).resize(function () {
+        dimensionar();        
+    });
     
+    
+    
+   
 
 });
 
