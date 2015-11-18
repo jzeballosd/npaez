@@ -80,7 +80,7 @@ function defineSequence(imagesLoaded, Hammer) {
       // Specify a number in milliseconds or true (for a default of 5000ms) to
       // define the period Sequence should wait between each step before
       // navigating to the next step
-      autoPlay: true,
+      autoPlay: false,
 
       // How long to wait between each step before navigation occurs again
       autoPlayInterval: 3500,

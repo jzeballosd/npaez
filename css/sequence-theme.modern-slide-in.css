@@ -178,9 +178,8 @@ html,
 
 .seq .seq-model {
   bottom: 15%;
-  /* height: 105%; */
   width: 100%;/* Don't allow the image to exceed its original height */
-  max-height: 650px;
+  max-height: 600px;
 }
 
 .seq .seq-model img {/* Don't allow the image to exceed its original height */
@@ -325,7 +324,6 @@ html,
   .seq .seq-model {
     top: 0;
     bottom: 0;
-    /* width: 25%; */
   }
 
   .seq .seq-model img {
@@ -437,6 +435,7 @@ html,
     transition-duration: .2s;
     -webkit-transition-properties: transform, opacity;
     transition-properties: transform, opacity;
+    margin-top: -12px;
   }
 
   .seq .seq-pagination li.seq-current img {
@@ -453,7 +452,6 @@ html,
 
 @media only screen and (min-width: 860px) {
   .seq .seq-model {
-    /* width: 27.5%; */
   }
 
   .seq .seq-title {
@@ -468,7 +466,6 @@ html,
 
 @media only screen and (min-width: 1020px) {
   .seq .seq-model {
-    /* width: 32.5%; */
   }
 
   .seq .seq-title {
@@ -480,7 +477,6 @@ html,
 @media only screen and (min-width: 1120px) {
   .seq .seq-model {
     margin-left: 0;
-    /* width: 37.5%; */
   }
 
   .seq .seq-title {
