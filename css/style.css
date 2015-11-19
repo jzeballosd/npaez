@@ -1244,6 +1244,7 @@ margin-bottom: 15px;
 }
 .information {
     position: relative;
+    padding-top: 20px;
 }
 .information strong {
     font-weight: 700;

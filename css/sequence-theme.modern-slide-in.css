@@ -39,8 +39,7 @@ html,
 
 .seq .seq-screen,
 .seq .seq-canvas,
-.seq .seq-canvas > * {
-  /* Reset the canvas and steps for more browser consistency */
+.seq .seq-canvas > * {/* Reset the canvas and steps for more browser consistency */
   margin: 0;
   padding: 0;
   height: 100%;
@@ -193,6 +192,7 @@ html,
   transition-properties: transform, opacity;
   -webkit-transition-timing-function: ease-out !important;
   transition-timing-function: ease-out !important;
+  /* display: none; */
 }
 
 .seq .seq-title br {
@@ -426,7 +426,7 @@ html,
   }
 
   .seq .seq-pagination li img {
-    opacity: .4;
+    /* opacity: .4; */
     pointer-events: auto;
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -491,13 +491,13 @@ html,
   }
 
   .seq .seq-next {
-    background: url("../images/bt-next@2x.png");
-    background-size: 35px 66px;
+    /* background: url("../images/bt-next@2x.png"); */
+    /* background-size: 35px 66px; */
   }
 
   .seq .seq-prev {
-    background: url("../images/bt-prev@2x.png");
-    background-size: 35px 66px;
+    /* background: url("../images/bt-prev@2x.png"); */
+    /* background-size: 35px 66px; */
   }
 }
 

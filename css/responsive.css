@@ -106,13 +106,14 @@ and open the template in the editor.
     }
     .redes-footer>li>a {
         width: 45px;
-        height: 45px;
+        height: 44px;
     }
 }
 @media (max-width: 767px) {
     /* Header top */
     .nav-bg {
         padding-top: 0px;
+        padding-bottom: 5px;
     }
     .welcome {
         text-align: center;
@@ -133,7 +134,7 @@ and open the template in the editor.
     }
     .navbar-toggle {
         float: left;
-        margin: 13px 15px;
+        margin: 10px 15px;
         background-color: #0a0810;
         border: none;
     }
@@ -278,6 +279,31 @@ and open the template in the editor.
         margin-bottom: 5px;
         padding: 5px 0 0px;
     }
+    #footer1>ul {
+        margin-top: 0;
+        /* margin-bottom: 60px; */
+    }
+    .footer li {
+        padding: 2px 15px;        
+    }
+    .box-linefooter{
+        display: block;
+    }
+    #footer2, #footer4{
+        border-left: none;
+    }
+    #footer4 .redes-footer{
+        display: none;
+    }
+    #box-redes{
+        display: block;
+    }
+    #box-redes li{
+        padding: 0;
+    }
+    .footer-info {
+        padding-bottom: 30px;
+    }
    
 }
 
@@ -379,6 +405,33 @@ and open the template in the editor.
     .seq .seq-next, .seq .seq-prev{
         width: 20px;
         height: 35px;
+    }
+    .footer li {
+        padding: 2px 14px;
+        font-size: 11px;
+    }
+    #box-redes .redes-footer{
+        margin-top: 60px;
+        width: 140px;
+    }
+    #box-redes .redes-footer>li>a{
+        width: 40px;
+        height: 39px;
+    }
+    .red-social{
+        margin-right: 0px;
+    }
+    .red-social li {
+        margin: 5px 3px;
+    }
+    .red-social>li>input {
+        margin-left: 7px;
+        max-width: 140px;
+    }
+    .red-social>li>div {
+        right: 15px;
+        width: 25px;
+        height: 25px;
     }
 }
 
