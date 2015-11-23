@@ -41,7 +41,7 @@ h2 {
     font-size: 36px;
 }
 h3 {
-    font-size: 30px;
+    font-size: 25px;
 }
 h4 {
     font-size: 24px;
@@ -243,7 +243,7 @@ input[type="text"]:focus {
     padding: 10px 15px;
     border: 1px solid #e2e2e2;
     font-size: 16px;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     -webkit-border-radius: 3px;
 }
 .button:hover, button:hover {
@@ -509,9 +509,9 @@ input[type="text"]:focus {
 }
 .header_bottom {
     position: relative;
-    padding: 15px 0 5px;
+    padding: 5px 0 0px;
     color: #fff;
-    margin-bottom: 10px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
+    margin-bottom: 5px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
     background: #dbdbda;/* Old browsers */
     background: 
     
@@ -543,8 +543,48 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -743,8 +783,8 @@ input[type="text"]:focus {
     z-index: 1;
 }
 .nav-bg {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #dbdbda;/* Old browsers */
     background: 
     
@@ -766,8 +806,12 @@ input[type="text"]:focus {
     
     
     
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
     
     
     
@@ -819,7 +863,7 @@ input[type="text"]:focus {
 }
 /*dropdown menu style */
 .nav .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
     margin: 0;
     /* background-color: #CE7F73; */
     padding: 0;
@@ -833,15 +877,19 @@ input[type="text"]:focus {
     position: relative;
 }
 .nav .dropdown-menu li a {
-    padding: 5px 15px;
-    color: #fff;
-    font-size: 16px;
+    padding: 7px 5px;
+    margin: 0 10px;
+    color: #777;
+    font-size: 13px;
+    font-weight: 300;
     background: url(../images/dot.png) -8px 12px no-repeat;
+    /* background-color: white; */
+    border-bottom: 1px solid black;
 }
 .nav .dropdown-menu li a:hover, .nav .dropdown-menu>li:hover>a {
-    color: #fff;
     background-position: 10px 12px;
-    padding: 5px 15px 5px 20px;
+    padding: 7px 0px 7px 10px;
+    color:black;
 }
 .nav li ul ul {
     left: 100%;
@@ -1003,6 +1051,7 @@ input[type="text"]:focus {
 }
 /*~~~~~~~~~~~ HOME SLIDER ~~~~~~~~~*/
 .hom-slider {
+    max-height: 550px;
     /* padding-top: 20px; *//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
     background: #dbdbda;/* Old browsers */
     background: 
@@ -1018,8 +1067,18 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
+    
+    
+    
     
     
     
@@ -1099,6 +1158,8 @@ input[type="text"]:focus {
 .promo-box{
     
 margin-bottom: 15px;
+    
+cursor: pointer;
 }
 /*!~~~~FOOTER STYLE~~~~*/
 .footer {
@@ -1244,6 +1305,7 @@ margin-bottom: 15px;
 }
 .information {
     position: relative;
+    padding-top: 20px;
 }
 .information strong {
     font-weight: 700;

@@ -39,17 +39,17 @@ html,
 
 .seq .seq-screen,
 .seq .seq-canvas,
-.seq .seq-canvas > * {
-  /* Reset the canvas and steps for more browser consistency */
+.seq .seq-canvas > * {/* Reset the canvas and steps for more browser consistency */
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   list-style: none;
+  max-height: 550px;
 }
 
 .seq .seq-canvas > * {
-  position: absolute;
+  /* position: absolute; */
   z-index: 102;
 }
 
@@ -86,8 +86,8 @@ html,
 }
 
 .seq .seq-canvas {
-  max-width: 1280px;
-  overflow: hidden;  
+  max-width: 1200px;
+  overflow: hidden;
   display: block;
   margin: 0 auto;
 }
@@ -179,7 +179,7 @@ html,
 .seq .seq-model {
   /* bottom: 15%; */
   width: 100%;/* Don't allow the image to exceed its original height */
-  max-height: 600px;
+  max-height: 550px;
 }
 
 .seq .seq-model img {/* Don't allow the image to exceed its original height */
@@ -193,6 +193,7 @@ html,
   transition-properties: transform, opacity;
   -webkit-transition-timing-function: ease-out !important;
   transition-timing-function: ease-out !important;
+  max-height: 550px;
 }
 
 .seq .seq-title br {
@@ -414,7 +415,7 @@ html,
     padding: 0 20px;
     max-width: 1240px;
     text-align: right;
-    bottom: 5%;
+    bottom: 12%;
   }
 
   .seq .seq-pagination li {

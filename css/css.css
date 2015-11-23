@@ -6,13 +6,13 @@
 }
 .red-social li{
     float: left;
-    margin: 5px 5px;
+    margin: 5px 5px 3px 5px;
 }
 .red-social a{
     font-size: 18px;
     border: none;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     /* border: 1px solid red; */
     display: block;
     background-size: auto 100%;
@@ -20,7 +20,7 @@
 .red-social>li>input{
     margin-left: 10px;
     color: #333;
-    padding: 2px 25px 2px 10px;
+    padding: 3px 25px 3px 10px;
     font-size: 13px;
     min-height: 27px;
     text-align: right;
@@ -28,7 +28,7 @@
     border: 1px solid black;
     font-family: Century Gothic;
     font-style: italic;
-    max-width: 150px;
+    max-width: 148px;
 }
 .red-social>li>div{
     background-image: url(../images/lupa.png);
@@ -41,12 +41,65 @@
     right: 33px;
     cursor: pointer;
 }
-/* NOSOTROS*/
-#box-nosotros p{
 
-    margin-left: 14px;
+/* NOSOTROS*/
+.box-bodyUs{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dad8d7+0,cbcac8+100 */
+    background: #dad8d7; /* Old browsers */
+    background: -moz-linear-gradient(left,  #dad8d7 0%, #cbcac8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #dad8d7 0%,#cbcac8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #dad8d7 0%,#cbcac8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dad8d7', endColorstr='#cbcac8',GradientType=1 ); /* IE6-9 */
+    margin-bottom: 15px;
 }
 
+#box-historiaMax{
+    position: absolute;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.8);
+    max-width: 50%;
+    padding: 35px 30px 25px 30px;
+    left: 7%;
+    top: 6%;
+    text-align: justify;
+    color: #555;
+}
+#box-historiaMin{
+    background-color: rgba(255,255,255,0.8);
+    padding: 30px 25px 25px 25px;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 15px;
+    display: none;
+}
+.box-historia p.paezTitle{
+    padding-bottom: 15px;
+}
+.box-historia p.paezTitle>img{
+    width: 200px;
+}
+.box-historia p.pTitle{
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px 0;
+}
+.box-historia p.pTexto{
+    font-size: 14px;
+    line-height: 20px;
+}
+.subTitle{
+    
+font-size: 17px;
+    
+font-weight: bold;
+    
+color: #999;
+    
+letter-spacing: 2px;
+    
+margin-top: 20px;
+}
 /* CONTACT */
 
 .dropdown #button-reason{
@@ -110,13 +163,16 @@
 .footer ul>li>a{    
     color: white;
 }
+.footer ul>li>a:hover{    
+    text-decoration: underline;
+}
 .footer ul>li:nth-child(1){
     color: white;
     font-weight: bold;
     letter-spacing: 3px;
 }
 .redes-footer{
-    width: 200px;
+    width: 185px;
     float: right;
 }
 .redes-footer>li{
@@ -145,3 +201,15 @@
     text-align: center;
 }
 
+.box-linefooter{
+    display: none;
+}
+.line-divfooter{
+    width: 90%;
+    margin: 45px auto;
+    border-top: 1px solid #4E4C51;
+}
+
+#box-redes{
+    display: none
+}
