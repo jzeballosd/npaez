@@ -26,12 +26,10 @@ and open the template in the editor.
     }
 }
 
-@media (min-width: 1200px) {
-    .boxwrap {
-        /* width: 1200px; */
-    }
-    .container {
-        /* width: 1200px; */
+@media (min-width: 1250px) {
+
+    .seq .seq-model{
+        width: 95%;
     }
 }
 
@@ -56,7 +54,7 @@ and open the template in the editor.
     }
     .nav li a {
         font-size: 14px;
-        padding: 10px 20px;
+        padding: 10px 17px;
     }
     
 }
@@ -65,6 +63,30 @@ and open the template in the editor.
     .redes-footer{
         float: left !important;
     }
+    /* NOSOTROS */
+    #box-historiaMax{
+        max-width: 53%;
+        padding: 35px 25px 25px 25px;
+        left: 5%;
+        top: 6%;
+        text-align: justify;
+        color: #555;
+    }
+    .box-historia p.paezTitle{
+        padding-bottom: 15px;
+    }
+    .box-historia p.paezTitle>img{
+        width: 175px;
+    }
+    .box-historia p.pTitle{
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding: 10px 0;
+    }
+    .box-historia p.pTexto{
+        font-size: 13px;
+        }
     
 }
 @media (max-width: 991px) {
@@ -93,6 +115,33 @@ and open the template in the editor.
         width: 50px;
         height: 50px;
     }
+    /* NOSOTROS */
+    #box-historiaMax{
+        max-width: 57%;
+        padding: 20px 20px 15px 20px;
+        left: 5%;
+        top: 6%;
+        text-align: justify;
+        color: #555;
+    }
+    .box-historia p.paezTitle{
+        padding-bottom: 10px;
+    }
+    .box-historia p.paezTitle>img{
+        width: 160px;
+    }
+    .box-historia p.pTitle{
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+    }
+    .box-historia p.pTexto{
+        font-size: 12px;
+        margin-bottom: 5px;
+        line-height: 18px;
+        }
 }
 @media (max-width: 800px) {
     .footer li{
@@ -304,7 +353,28 @@ and open the template in the editor.
     .footer-info {
         padding-bottom: 30px;
     }
-   
+    /* NOSOTROS*/   
+    #box-historiaMax{
+        display: none;
+    }
+    #box-historiaMin{
+        display: block;
+    }
+    .box-historia p.paezTitle{
+        padding-bottom: 15px;
+    }
+    .box-historia p.paezTitle>img{
+        width: 200px;
+    }
+    .box-historia p.pTitle{
+        font-size: 27px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding: 14px 0;
+    }
+    .box-historia p.pTexto{
+
+    }
 }
 
 @media (max-width: 640px) {
@@ -433,6 +503,26 @@ and open the template in the editor.
         width: 25px;
         height: 25px;
     }
+    /* NOSOTROS*/   
+    #box-historiaMin {
+        padding: 20px 15px;
+        margin-bottom: 15px;
+    }
+    .box-historia p.paezTitle{
+        padding-bottom: 10px;
+    }
+    .box-historia p.paezTitle>img{
+        width: 150px;
+    }
+    .box-historia p.pTitle{
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: 6px 0;
+    }
+    .box-historia p.pTexto{
+
+    font-size: 12px;}
 }
 
 @media (max-width: 384px) {
