@@ -85,6 +85,8 @@ $(function () {
                 $(".seq-model").css("height", (altoBoxImg + 15) + "px");
                 var altoConteSlide = $(".seq-model").height();
                 $("#sequence").css("height", (altoConteSlide + 10) + "px");
+            }else{
+                $(".hom-slider").css("height",($(".seq-model>img").height()+10)+"px")
             }
         }, 500);
 
@@ -94,8 +96,28 @@ $(function () {
         dimensionar();        
     });
     
-    
-    
+    //NOSOTROS
+    $("#linkclose-box").click(function(){
+        $("#updateDatos").fadeOut(500);
+    });
+    $("#linkOpen-Update").click(function(){
+        $("#updateDatos").fadeIn(500);
+    });
+    $("#linkOpen-UpdateMin").click(function(){
+        var ancho = $(window).height();
+        $("#updateDatos").css("top","50%");
+        $("#updateDatos").fadeIn(500);
+    });
+    // subir CV
+    $("#uploadFile").change(function(){        
+        var archivo = $(this).val();
+        if (archivo !== "") {
+            
+        }else{
+            
+        }
+            
+    });
    
 
 });

@@ -42,9 +42,9 @@ and open the template in the editor.
 /* box resize close */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-   .nav li a {
+    .nav li a {
         font-size: 16px;
-        padding: 10px 35px;
+        padding: 10px 30px;
     }
 }
 
@@ -56,7 +56,7 @@ and open the template in the editor.
         font-size: 14px;
         padding: 10px 17px;
     }
-    
+
 }
 
 @media (max-width: 1080px) {
@@ -86,11 +86,34 @@ and open the template in the editor.
     }
     .box-historia p.pTexto{
         font-size: 13px;
-        }
-    
+    }
+    .box-partepaez{
+        padding: 30px 25px 20px 25px;
+    } 
+    .box-partepaez .pTitle{
+        font-size: 24px !important;
+    }
+    .box-partepaez .pTexto{
+        font-size: 13px !important;line-height: 18px !important;
+    }
+    .box-partepaez .button-parte{
+        font-size: 13px;
+        padding: 6px 15px;
+    }
+    #filGroupLast {
+        margin: 30px 0 30px;
+        height: 26px;
+    }
+    #button-postular{
+        margin-bottom: 0;
+    }
+    #updateDatos label{
+        font-size: 13px;
+    }
+
 }
 @media (max-width: 991px) {
-    
+
     /* leftbar & rightbar */
     .leftbar {
         float: none !important;
@@ -117,7 +140,7 @@ and open the template in the editor.
     }
     /* NOSOTROS */
     #box-historiaMax{
-        max-width: 57%;
+        max-width: 60% !important;
         padding: 20px 20px 15px 20px;
         left: 5%;
         top: 6%;
@@ -125,10 +148,10 @@ and open the template in the editor.
         color: #555;
     }
     .box-historia p.paezTitle{
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
     .box-historia p.paezTitle>img{
-        width: 160px;
+        width: 150px;
     }
     .box-historia p.pTitle{
         font-size: 20px;
@@ -138,10 +161,11 @@ and open the template in the editor.
         margin-bottom: 5px;
     }
     .box-historia p.pTexto{
-        font-size: 12px;
+        font-size: 11px;
         margin-bottom: 5px;
         line-height: 18px;
-        }
+    }
+           
 }
 @media (max-width: 800px) {
     .footer li{
@@ -188,7 +212,7 @@ and open the template in the editor.
         border: none;
     }
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background-color: #007ae4;
+        background-color: #333;
         outline: none;
     }
     .nav {
@@ -205,6 +229,8 @@ and open the template in the editor.
         position: relative;
         margin-top: 1px;
         background: rgba(0, 0, 0, 0.4);
+        font-size: 14px;
+        padding: 8px 8px;
     }
     .navbar-nav > li > a {
         line-height: 20px;
@@ -312,7 +338,7 @@ and open the template in the editor.
     .contact-info p:last-child {
         margin-right: 0;
     }
-    
+
     .seq .seq-next, .seq .seq-prev{        
         width: 25px;        
         height: 44px;
@@ -322,7 +348,7 @@ and open the template in the editor.
         /* margin-top: 5px; */
     }
     .nav-bg{
-        
+
     }
     .header_bottom{
         margin-bottom: 5px;
@@ -360,20 +386,56 @@ and open the template in the editor.
     #box-historiaMin{
         display: block;
     }
+    #box-partepaezMax{
+        display: none;
+    }
+    #box-partepaezMin{
+        display: block;
+        padding-top: 20px;
+    }
     .box-historia p.paezTitle{
         padding-bottom: 15px;
     }
     .box-historia p.paezTitle>img{
-        width: 200px;
+        width: 160px;
     }
     .box-historia p.pTitle{
-        font-size: 27px;
+        font-size: 20px;
         font-weight: bold;
         letter-spacing: 3px;
         padding: 14px 0;
     }
-    .box-historia p.pTexto{
-
+    .box-partepaez .pTitle{
+        font-size: 18px !important;
+    }
+    .box-partepaez .pTexto{
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .box-partepaez .button-parte{
+        font-size: 12px;
+        padding: 6px 13px;
+        margin: 20px 0;
+    }
+    #updateDatos{
+        width: 90%;
+        left: 5%;
+        z-index: 999;
+    }
+    #updateDatos label {
+        font-size: 12px;
+        text-align: left;
+    }
+    #updateDatos input{
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+    .box-uploadfile{
+        font-size: 12px;
+        padding: 6px 7px;
+    }
+    #button-postular{
+        margin: 0 auto;   
     }
 }
 
@@ -521,8 +583,7 @@ and open the template in the editor.
         padding: 6px 0;
     }
     .box-historia p.pTexto{
-
-    font-size: 12px;}
+        font-size: 12px;}
 }
 
 @media (max-width: 384px) {
@@ -561,7 +622,7 @@ and open the template in the editor.
         margin-bottom: -9px;
         padding-bottom: 9px;
     }
-    
+
 }
 
 @media (max-width: 320px) {
@@ -620,7 +681,7 @@ and open the template in the editor.
     .control {
         top: 29px;
     }
-    
-    
+
+
 }
 

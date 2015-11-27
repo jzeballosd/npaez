@@ -70,8 +70,9 @@ a:focus {
 }
 a:hover, a:focus {
     text-decoration: none;
-    color: #0092ff;
+    color: #fff;
 }
+
 ul {
     list-style: none outside none;
     margin: 0;
@@ -230,7 +231,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
     background: #fff;
     padding: 8px 10px;
     border: 1px solid #e2e2e2;
-    font-size: 14px;
+    font-size: 13px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
 }
@@ -317,7 +318,7 @@ input[type="text"]:focus {
     position: relative;
     width: 100%;
     max-width: 1366px;
-    /* background-color: #f5f5f5; */
+    background-color: #fff;
 }
 .header, .footer, container_fullwidth {
     position: relative;
@@ -327,7 +328,7 @@ input[type="text"]:focus {
 }
 /* HEADER STYLE */
 .header {/* Old browsers *//* FF3.6+ */
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
     background-color: #f5f5f5;
     /* background: 
     
@@ -416,6 +417,11 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
+    
     -o-linear-gradient(left,  #e7e7e6 0%,#d2d2d0 100%);/* Opera 11.10+ */
     background: 
 
@@ -456,6 +462,11 @@ input[type="text"]:focus {
 
 
         
+    
+    
+    
+    
+    
     
     
     
@@ -565,8 +576,21 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
+    
+    
+    
     
     
     
@@ -787,7 +811,7 @@ input[type="text"]:focus {
 .nav-bg {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbda+0,c6c6c3+100 */
     padding-top: 10px;
     padding-bottom: 10px;
-    /* background: #dbdbda; *//* Old browsers */
+    background: #dbdbda;/* Old browsers */
     background: 
     
     
@@ -813,8 +837,11 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
-    /* background: 
+    background: 
     
     
     
@@ -837,8 +864,10 @@ input[type="text"]:focus {
     
     
     
-    -webkit-linear-gradient(left,  #dbdbda 0%,#c6c6c3 100%); *//* Chrome10-25,Safari5.1-6 */
-    /* background: linear-gradient(to right,  #dbdbda 0%,#c6c6c3 100%); *//* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    
+    -webkit-linear-gradient(left,  #dbdbda 0%,#c6c6c3 100%);/* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #dbdbda 0%,#c6c6c3 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbda', endColorstr='#c6c6c3',GradientType=1 );/* IE6-9 */
 }
 .nav-wrap {
@@ -877,7 +906,7 @@ input[type="text"]:focus {
     border-top: none;
     border-radius: 0;
     -webkit-border-radius: 0;
-    z-index: initial;
+    /* z-index: initial; */
 }
 .nav .dropdown-menu li {
     width: 100%;
@@ -1079,8 +1108,26 @@ input[type="text"]:focus {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
     -moz-linear-gradient(left,  #dbdbda 0%, #c6c6c3 100%);/* FF3.6-15 */
     background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

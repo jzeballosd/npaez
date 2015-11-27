@@ -154,7 +154,7 @@ html,
 
 .seq .seq-prev {
   left: 20px;
-  background-image: url("../images/leftarrow.png");
+  background-image: url("../images/leftarrow.png") !important;
 }
 
 .seq .seq-prev:focus,
@@ -167,7 +167,7 @@ html,
 .seq .seq-model,
 .seq .seq-title {
   position: absolute;
-  z-index: 105;
+  z-index: initial;
 }
 
 .seq .seq-title {
@@ -305,7 +305,7 @@ html,
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 106;
+    z-index: initial;
   }
 
   .seq .seq-canvas > *:before {
@@ -415,7 +415,7 @@ html,
     padding: 0 20px;
     max-width: 1240px;
     text-align: right;
-    top: 70%;
+    top: 80%;
   }
 
   .seq .seq-pagination li {
@@ -492,13 +492,15 @@ html,
   }
 
   .seq .seq-next {
-    background: url("../images/bt-next@2x.png");
-    background-size: 35px 66px;
+    background: url("../images/rightarrow.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 
   .seq .seq-prev {
-    background: url("../images/bt-prev@2x.png");
-    background-size: 35px 66px;
+    background: url("../images/leftarrow.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
 
