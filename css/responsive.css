@@ -110,6 +110,10 @@ and open the template in the editor.
     #updateDatos label{
         font-size: 13px;
     }
+    /*COLECCIONES*/
+    .colecciones>div>img{
+        max-width: 260px;
+    }
 
 }
 @media (max-width: 991px) {
@@ -164,6 +168,10 @@ and open the template in the editor.
         font-size: 11px;
         margin-bottom: 5px;
         line-height: 18px;
+    }
+    /*COLECIONES*/
+    .colecciones>div>img{
+        max-width: 240px;
     }
            
 }
@@ -437,6 +445,11 @@ and open the template in the editor.
     #button-postular{
         margin: 0 auto;   
     }
+    /*COLECCIONES*/
+    .colecciones>div>img{
+        max-width: 220px;
+        margin-top: 45px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -453,6 +466,13 @@ and open the template in the editor.
     }
     .nav-shadow {
         padding-bottom: 16px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .colecciones .col-sm-6{
+        width: 50%;
+        float: left;
     }
 }
 
@@ -583,7 +603,12 @@ and open the template in the editor.
         padding: 6px 0;
     }
     .box-historia p.pTexto{
-        font-size: 12px;}
+        font-size: 12px;
+    }
+    /*COLECCIONES*/
+    .colecciones>div>img{
+        max-width: 200px;
+    }
 }
 
 @media (max-width: 384px) {

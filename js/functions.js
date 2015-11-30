@@ -91,10 +91,6 @@ $(function () {
         }, 500);
 
     };
-    dimensionar();
-    $(window).resize(function () {
-        dimensionar();        
-    });
     
     //NOSOTROS
     $("#linkclose-box").click(function(){
@@ -119,6 +115,36 @@ $(function () {
             
     });
    
+   // COLECCIONES
+    var dimenboxCover = function () {
+        var wboxCover = $(".colecciones>div>div").width();
+        var hboxCover = $(".colecciones>div>div").height();
+        $(".box-covercolec").css("width", wboxCover + "px");
+        $(".box-covercolec").css("height", hboxCover + "px");
+    };
+    
+    $(".colecciones>div>div").hoverIntent(function(){
+         var elemento = $(this).attr("data-box");
+         $("#"+elemento).fadeIn(350);
+         
+    },function(){
+         var elemento = $(this).attr("data-box");
+         $("#"+elemento).fadeOut(350);
+        
+    });
+    
+    $(".colecciones>div>div").click(function(){
+         var elemento = $(this).attr("data-box");
+         window.alert(elemento);
+    });
+    /* ------- */
+    
+    dimensionar();
+    dimenboxCover();
+    $(window).resize(function () {
+        dimensionar(); 
+        dimenboxCover();
+    }); 
 
 });
 

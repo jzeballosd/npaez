@@ -387,3 +387,29 @@
 #box-redes{
     display: none
 }
+
+/* COLECCIONES */
+.colecciones{
+   padding-bottom: 20px;
+   margin-top: 37px;
+}
+.colecciones>div>img{
+   margin: 35px auto 35px;
+}
+.colecciones>div>div{
+    padding: 10px;
+}
+.colecciones>div>div>img{
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.colecciones .box-covercolec{
+    background: rgba(0,0,0,0.75);
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+.colecciones .box-covercolec>p{ 
+    color: white; 
+    margin-top: 65%;
+}
